@@ -5,15 +5,15 @@ body {
   color: #e4e6eb;
 }
 
+a { color: inherit; }
+
+img { max-width: 100%; }
+
 .navbar {
   display: flex;
   justify-content: space-between;
   padding: 20px 8%;
   border-bottom: 1px solid #1f2329;
-}
-
-.logo {
-  font-weight: 700;
 }
 
 .navbar a {
@@ -33,7 +33,6 @@ body {
 
 .hero h2 {
   color: #9da5b4;
-  font-weight: 500;
 }
 
 .hero p {
@@ -55,12 +54,21 @@ body {
   margin-right: 10px;
 }
 
+.btn-primary:hover {
+  background: #1f6feb;
+}
+
 .btn-outline {
   border: 1px solid #2f81f7;
   padding: 12px 22px;
   border-radius: 6px;
   text-decoration: none;
   color: #2f81f7;
+}
+
+.btn-outline:hover {
+  background: #2f81f7;
+  color: white;
 }
 
 .section {
@@ -112,10 +120,6 @@ body {
 
 .stats img {
   width: 400px;
-}
-
-.center {
-  text-align: center;
 }
 
 .contact {
