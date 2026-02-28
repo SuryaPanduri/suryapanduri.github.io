@@ -5,21 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Surya | MERN Stack Developer</title>
 
-  <!-- CSS -->
   <link rel="stylesheet" href="style.css">
 
-  <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
 
-  <!-- Font Awesome FREE CDN -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
 </head>
+
 <body>
 
 <!-- NAVBAR -->
 <header class="navbar">
-  <a href="#" class="logo"><i class="fa-solid fa-code"></i> Surya</a>
+  <div class="logo"><a href="#">Surya</a></div>
   <nav>
     <a href="#projects">Projects</a>
     <a href="#case-studies">Case Studies</a>
@@ -47,20 +44,15 @@
 <section id="projects" class="section">
   <h2 class="section-title"><i class="fa-solid fa-star"></i> Featured Project</h2>
 
-  <div class="project-card project-layout">
-    <div class="project-image">
-      <img src="screenshots/admin-dashboard.png" alt="Derma SaaS Dashboard">
-    </div>
+  <div class="featured-project">
 
-    <div class="project-content">
+    <img src="screenshots/admin-dashboard.png" alt="Derma SaaS">
+
+    <div class="featured-content">
       <h3>Derma SaaS Platform</h3>
+      <p>Clinic management platform streamlining appointments, services, and analytics.</p>
 
-      <p class="project-description">
-        Dermatology clinic management platform connecting administrators and patients through
-        booking workflows, service management, and analytics.
-      </p>
-
-      <ul class="project-points">
+      <ul>
         <li>Appointment scheduling & slot management</li>
         <li>Role-based admin & customer workflows</li>
         <li>Service & order management</li>
@@ -69,130 +61,81 @@
 
       <div class="tags">
         <span><i class="fa-brands fa-react"></i> React</span>
-        <span><i class="fa-solid fa-code"></i> TypeScript</span>
         <span><i class="fa-solid fa-fire"></i> Firebase</span>
         <span><i class="fa-brands fa-node-js"></i> Node.js</span>
         <span><i class="fa-solid fa-database"></i> REST API</span>
       </div>
 
       <div class="project-buttons">
-        <a href="https://derma-clinic-mvp.web.app/" class="btn-primary small-btn">Live Demo</a>
-        <a href="https://github.com/SuryaPanduri/derma-saas" target="_blank" class="btn-outline small-btn">
+        <a href="#" class="btn-primary small">Live Demo</a>
+        <a href="https://github.com/SuryaPanduri/derma-saas" target="_blank" class="btn-outline small">
           <i class="fa-brands fa-github"></i> GitHub
         </a>
       </div>
     </div>
+
   </div>
 </section>
 
 <!-- OTHER PROJECTS -->
 <section class="section alt">
-  <h2 class="section-title">
-    <i class="fa-solid fa-layer-group"></i> Other Projects
-  </h2>
+  <h2 class="section-title"><i class="fa-solid fa-layer-group"></i> Other Projects</h2>
 
   <div class="mini-projects">
 
-    <!-- Project 1 -->
     <div class="mini-card">
       <img src="screenshots/invenzo.png" alt="INVENZO">
-
       <h3>INVENZO Asset Management</h3>
-
-      <p>Role-based asset tracking system for managing inventory and workflows.</p>
-
+      <p>Role-based asset tracking system improving visibility & accountability.</p>
       <div class="mini-tech">
         <i class="fa-brands fa-node-js"></i>
         <i class="fa-solid fa-database"></i>
-        <i class="fa-solid fa-server"></i>
       </div>
-      <div class="mini-links">
-        <a href="https://github.com/SuryaPanduri/invenzo" target="_blank" class="mini-btn">
-          <i class="fa-brands fa-github"></i> Code
-        </a>
-      </div>
+      <a href="https://github.com/SuryaPanduri/invenzo" target="_blank" class="mini-btn">
+        <i class="fa-brands fa-github"></i> Code
+      </a>
     </div>
 
-    <!-- Project 2 -->
     <div class="mini-card">
-      <img src="screenshots/mfa-mern.png" alt="MFA MERN Authentication">
-
-      <h3>MFA MERN Authentication System</h3>
-
-      <p>Secure MERN stack authentication with multi-factor verification and protected role-based access.</p>
-
+      <img src="screenshots/mfa-mern.png" alt="MFA MERN">
+      <h3>MFA MERN Authentication</h3>
+      <p>Secure multi-factor authentication with protected role access.</p>
       <div class="mini-tech">
         <i class="fa-brands fa-react"></i>
-        <i class="fa-brands fa-node-js"></i>
-        <i class="fa-solid fa-database"></i>
         <i class="fa-solid fa-shield-halved"></i>
       </div>
-      <div class="mini-links">
-        <a href="https://github.com/SuryaPanduri/mfa-mern" target="_blank" class="mini-btn">
-          <i class="fa-brands fa-github"></i> Code
-        </a>
-      </div>
+      <a href="https://github.com/SuryaPanduri/mfa-mern" target="_blank" class="mini-btn">
+        <i class="fa-brands fa-github"></i> Code
+      </a>
     </div>
 
-    <!-- Project 3 -->
     <div class="mini-card">
-
-      <img src="screenshots/plagiarism.png" alt="Plagiarism System">
-      <h3>Plagiarism Detection System</h3>
-
-      <p>Text & image similarity detection using advanced matching algorithms.</p>
-
+      <img src="screenshots/plagiarism.png" alt="Plagiarism">
+      <h3>Plagiarism Detection</h3>
+      <p>Text & image similarity detection using intelligent matching.</p>
       <div class="mini-tech">
         <i class="fa-brands fa-python"></i>
-        <i class="fa-solid fa-database"></i>
       </div>
-      <div class="mini-links">
-        <a href="https://github.com/SuryaPanduri/plagiSense" target="_blank" class="mini-btn">
-          <i class="fa-brands fa-github"></i> Code
-        </a>
-      </div>
+      <a href="https://github.com/SuryaPanduri/plagiSense" target="_blank" class="mini-btn">
+        <i class="fa-brands fa-github"></i> Code
+      </a>
     </div>
 
   </div>
 </section>
-<section id="case-studies" class="section case-section">  <h2 class="section-title">📖 Case Studies</h2>
 
-  <div class="case-studies">
+<!-- CASE STUDIES -->
+<section id="case-studies" class="section case-section">
+  <h2 class="section-title">📖 Case Studies</h2>
 
-    <!-- DERMA SAAS -->
-    <div class="case-card">
+  <div class="case-card">
+    <h3>Derma SaaS Platform</h3>
+    <button class="case-toggle">View Case Study <i class="fa-solid fa-chevron-down"></i></button>
 
-  <h3 class="case-title">Derma SaaS Platform</h3>
-  <p>Clinic workflow system built to streamline appointments, services, and operational analytics.</p>
-
-  <button class="case-toggle">
-    View Case Study <i class="fa-solid fa-chevron-down"></i>
-  </button>
-
-  <div class="case-details">
-    <div class="case-block">
-      <span class="case-label">Problem</span>
-      <p>
-        Manual appointment scheduling and fragmented workflows caused delays,
-        miscommunication, and operational inefficiencies.
-      </p>
-    </div>
-
-    <div class="case-block">
-      <span class="case-label">Solution</span>
-      <p>
-        Built a centralized clinic management platform with automated booking,
-        role-based workflows, and real-time dashboards.
-      </p>
-    </div>
-
-    <div class="case-block">
-      <span class="case-label">Impact</span>
-      <ul>
-        <li>Reduced manual scheduling overhead</li>
-        <li>Improved workflow efficiency</li>
-        <li>Enabled real-time operational insights</li>
-      </ul>
+    <div class="case-details">
+      <p><strong>Problem:</strong> Manual scheduling & fragmented workflows.</p>
+      <p><strong>Solution:</strong> Centralized booking & role-based dashboards.</p>
+      <p><strong>Impact:</strong></p>
       <div class="case-impact">
         <div><strong>40%</strong><span>workflow efficiency</span></div>
         <div><strong>3x</strong><span>faster scheduling</span></div>
@@ -200,41 +143,14 @@
     </div>
   </div>
 
-</div>
+  <div class="case-card">
+    <h3>INVENZO Asset Management</h3>
+    <button class="case-toggle">View Case Study <i class="fa-solid fa-chevron-down"></i></button>
 
-<div class="case-card">
-
-  <h3 class="case-title">INVENZO Asset Management</h3>
-  <p>Role-based asset lifecycle tracking platform improving visibility and accountability.</p>
-
-  <button class="case-toggle">
-    View Case Study <i class="fa-solid fa-chevron-down"></i>
-  </button>
-
-  <div class="case-details">
-    <div class="case-block">
-      <span class="case-label">Problem</span>
-      <p>
-        Organizations lacked clear visibility into asset usage,
-        lifecycle tracking, and accountability.
-      </p>
-    </div>
-
-    <div class="case-block">
-      <span class="case-label">Solution</span>
-      <p>
-        Developed a role-based asset tracking system with lifecycle monitoring,
-        checkout workflows, and audit-ready logs.
-      </p>
-    </div>
-
-    <div class="case-block">
-      <span class="case-label">Impact</span>
-      <ul>
-        <li>Improved asset utilization visibility</li>
-        <li>Reduced operational inefficiencies</li>
-        <li>Strengthened accountability & audit readiness</li>
-      </ul>
+    <div class="case-details">
+      <p><strong>Problem:</strong> Poor asset visibility & accountability.</p>
+      <p><strong>Solution:</strong> Lifecycle tracking & audit-ready logs.</p>
+      <p><strong>Impact:</strong></p>
       <div class="case-impact">
         <div><strong>99.9%</strong><span>inventory visibility</span></div>
         <div><strong>60%</strong><span>faster tracking</span></div>
@@ -242,234 +158,44 @@
     </div>
   </div>
 
-</div>
-  
 </section>
 
 <!-- SKILLS -->
 <section id="skills" class="section">
-  <h2 class="section-title">
-    <i class="fa-solid fa-laptop-code"></i> Core Skills
-  </h2>
-
-  <div class="skills-modern">
-
-    <!-- Frontend -->
-    <div class="skill-modern-card">
-      <div class="skill-modern-header">
-        <i class="fa-solid fa-palette"></i>
-        <h3>Frontend</h3>
-      </div>
-
-      <div class="skill-modern-tags">
-        <span><i class="fa-brands fa-react"></i> React</span>
-        <span><i class="fa-brands fa-js"></i> JavaScript</span>
-        <span><i class="fa-brands fa-html5"></i> HTML</span>
-        <span><i class="fa-brands fa-css3-alt"></i> Tailwind</span>
-      </div>
-
-      <div class="bar-label">
-        <span>React • Advanced</span>
-        <span>85%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:85%"></div>
-      </div>
-
-      <div class="bar-label">
-        <span>JavaScript • Advanced</span>
-        <span>88%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:88%"></div>
-      </div>
-    </div>
-
-    <!-- Backend -->
-    <div class="skill-modern-card">
-      <div class="skill-modern-header">
-        <i class="fa-solid fa-server"></i>
-        <h3>Backend</h3>
-      </div>
-
-      <div class="skill-modern-tags">
-        <span><i class="fa-brands fa-node-js"></i> Node.js</span>
-        <span><i class="fa-solid fa-server"></i> Express</span>
-        <span><i class="fa-solid fa-fire"></i> Firebase</span>
-        <span><i class="fa-solid fa-lock"></i> JWT</span>
-      </div>
-
-      <div class="bar-label">
-        <span>Node.js • Intermediate+</span>
-        <span>80%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:80%"></div>
-      </div>
-      <div class="bar-label">
-        <span>Express • Advanced </span>
-        <span>90%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:90%"></div>
-      </div>
-    </div>
-
-    <!-- Database -->
-    <div class="skill-modern-card">
-      <div class="skill-modern-header">
-        <i class="fa-solid fa-database"></i>
-        <h3>Database</h3>
-      </div>
-
-      <div class="skill-modern-tags">
-        <span>MongoDB</span>
-        <span>MySQL</span>
-        <span>Firestore</span>
-        <span>PostgreSQl</span>
-      </div>
-
-      <div class="bar-label">
-        <span>MongoDB • Intermediate</span>
-        <span>75%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:75%"></div>
-      </div>
-      <div class="bar-label">
-        <span>MySQL • Advanced</span>
-        <span>85%</span>
-      </div>
-      <div class="bar-track">
-        <div class="bar-fill" style="width:85%"></div>
-      </div>
-    </div>
-
+  <h2 class="section-title"><i class="fa-solid fa-laptop-code"></i> Core Skills</h2>
+  <div class="skills-grid">
+    <div>React • Node • Express • Firebase</div>
+    <div>MongoDB • MySQL • Firestore</div>
+    <div>REST APIs • Auth • Role Systems</div>
   </div>
 </section>
 
-<section class="section alt">
-
-  <h2 class="section-title">
-    <i class="fa-solid fa-diagram-project"></i> Project Impact
-  </h2>
-
-  <div class="impact-grid">
-
-    <!-- FEATURED -->
-    <div class="impact-card featured">
-      <i class="fa-solid fa-shield-halved"></i>
-      <h4>Secure Authentication Systems</h4>
-      <p>
-        Built multi-factor authentication and hardened login workflows
-        to strengthen identity verification and protect user access.
-      </p>
-      <span class="impact-tag">MFA MERN Authentication</span>
-    </div>
-
-    <!-- SYSTEMS -->
-    <div class="impact-card">
-      <i class="fa-solid fa-user-shield"></i>
-      <h4>Role-Based Access Control</h4>
-      <p>
-        Designed permission systems for admins, managers, and users,
-        ensuring controlled access and operational clarity.
-      </p>
-      <span class="impact-tag">Derma SaaS • INVENZO</span>
-    </div>
-
-    <!-- AUTOMATION -->
-    <div class="impact-card">
-      <i class="fa-solid fa-calendar-check"></i>
-      <h4>Workflow Automation</h4>
-      <p>
-        Eliminated manual scheduling through booking automation,
-        slot management, and streamlined service workflows.
-      </p>
-      <span class="impact-tag">Derma SaaS</span>
-    </div>
-
-    <!-- OPERATIONS -->
-    <div class="impact-card">
-      <i class="fa-solid fa-boxes-stacked"></i>
-      <h4>Operational Asset Management</h4>
-      <p>
-        Built lifecycle tracking systems to improve resource visibility,
-        accountability, and operational efficiency.
-      </p>
-      <span class="impact-tag">INVENZO</span>
-    </div>
-
-    <!-- ANALYTICS -->
-    <div class="impact-card">
-      <i class="fa-solid fa-chart-line"></i>
-      <h4>Analytics & Decision Support</h4>
-      <p>
-        Developed dashboards that transform operational data into
-        actionable insights for monitoring and decision-making.
-      </p>
-      <span class="impact-tag">Derma SaaS</span>
-    </div>
-
-    <!-- ALGORITHMS -->
-    <div class="impact-card">
-      <i class="fa-solid fa-brain"></i>
-      <h4>Algorithmic Problem Solving</h4>
-      <p>
-        Implemented text & image similarity detection algorithms
-        for intelligent plagiarism analysis systems.
-      </p>
-      <span class="impact-tag">Plagiarism Detection</span>
-    </div>
-
-    <div class="impact-card">
-      <i class="fa-solid fa-shield-halved"></i>
-      <h4>Testing & Code Quality</h4>
-      <p>
-        Ensure reliability and maintainability through structured testing,
-        code reviews, and clean architecture practices.
-      </p>
-      <span class="impact-tag">Code Review • QA</span>
-    </div>
-
-  </div>
-</section>
-
+<!-- CONTACT -->
 <section id="contact" class="section alt">
-  <h2 class="section-title">
-    <i class="fa-solid fa-envelope"></i> Get In Touch
-  </h2>
-
-  <p class="contact-sub">
-    Interested in collaboration, freelance work, or discussing a project?
-  </p>
+  <h2 class="section-title"><i class="fa-solid fa-envelope"></i> Get In Touch</h2>
 
   <div class="contact-grid">
-
     <a href="mailto:suryapanduri5121@gmail.com" class="contact-card">
       <i class="fa-solid fa-envelope"></i>
       <span>Email</span>
-      <small>suryapanduri5121@gmail.com</small>
     </a>
 
     <a href="https://www.linkedin.com/in/suryap2/" target="_blank" class="contact-card">
       <i class="fa-brands fa-linkedin"></i>
       <span>LinkedIn</span>
-      <small>Professional profile</small>
     </a>
 
     <a href="https://github.com/SuryaPanduri" target="_blank" class="contact-card">
       <i class="fa-brands fa-github"></i>
       <span>GitHub</span>
-      <small>View repositories</small>
     </a>
-
   </div>
 </section>
 
 <footer>
   <p>© 2026 Surya — MERN Stack Developer</p>
 </footer>
+
 <script src="script.js"></script>
 </body>
 </html>
