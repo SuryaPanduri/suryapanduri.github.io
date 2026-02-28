@@ -1,28 +1,26 @@
 document.addEventListener("DOMContentLoaded", () => {
 
-  // Smooth scroll navigation
+  // Smooth scroll
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener("click", function (e) {
-      const target = this.getAttribute("href");
-
+    anchor.addEventListener('click', function (e) {
+      const target = this.getAttribute('href');
       if (target === "#" || !document.querySelector(target)) return;
 
       e.preventDefault();
-
       document.querySelector(target).scrollIntoView({
-        behavior: "smooth"
+        behavior: 'smooth'
       });
     });
   });
 
-  // Case Study Toggle (Accordion)
+  // Case study toggle (accordion behavior)
   document.querySelectorAll(".case-toggle").forEach(btn => {
     btn.addEventListener("click", () => {
 
       const card = btn.closest(".case-card");
       const isActive = card.classList.contains("active");
 
-      // Close all cards
+      // close all cards first
       document.querySelectorAll(".case-card").forEach(c => {
         c.classList.remove("active");
         const button = c.querySelector(".case-toggle");
@@ -31,12 +29,11 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      // Open clicked card
+      // open clicked card if it was closed
       if (!isActive) {
         card.classList.add("active");
         btn.innerHTML = `Hide Details <i class="fa-solid fa-chevron-down"></i>`;
       }
-
     });
   });
 
